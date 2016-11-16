@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #bfeefa;
+}
+
+.done {
+  color: lightgrey;
+  text-decoration: line-through;
+}
+
+#card {
+  width: 40%;
+  border: 2px solid black;
+  background-color: pink;
+  margin-bottom: 5%;
+  margin-left: 30%;
+
+}
