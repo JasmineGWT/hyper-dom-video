@@ -28,7 +28,7 @@ const updateView = () => {
 
 store.subscribe(updateView)
 
-const todos = Todos(initialState.todos, dispatch)
+const todos = Todos(store.getState().todos, dispatch)
 document.body.appendChild(todos)
 
 updateView()
